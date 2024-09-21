@@ -157,6 +157,7 @@ nav {
     max-width: 740px;
   }
   .tabs {
+    padding-right: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,11 +189,9 @@ nav {
       border: 1px solid #dddddd;
       position: relative;
       line-height: 1em;
-      transition: all 0.2s ease-in-out 0s;
       text-decoration: none;
     }
     a.selected {
-      z-index: 20;
       color: #fff;
       background-color: #327fc7;
       border-color: #327fc7;
@@ -200,7 +199,7 @@ nav {
     }
   }
   .tutorial-list {
-    counter-reset: tutorialStep;
+    padding-right: 4rem;
     #create-repo-step {
       margin-top: 90px;
       margin-bottom: 70px;
@@ -353,13 +352,10 @@ nav {
       border: solid 1px #e5e5e5;
       margin: 0 auto 15px;
       display: block;
-      transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out 0s;
       .mega-octicon {
         font-size: 48px;
         display: inline-block;
         text-decoration: none;
-        -webkit-font-smoothing: antialiased;
         color: #4183c4;
         line-height: 100px;
       }
@@ -404,7 +400,6 @@ nav {
         font: normal normal 48px octicons;
         display: inline-block;
         text-decoration: none;
-        -webkit-font-smoothing: antialiased;
         color: #4183c4;
         line-height: 100px;
       }

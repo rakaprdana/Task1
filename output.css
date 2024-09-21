@@ -146,6 +146,7 @@ nav a {
   max-width: 740px;
 }
 #tutorial .tabs {
+  padding-right: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -177,18 +178,16 @@ nav a {
   border: 1px solid #dddddd;
   position: relative;
   line-height: 1em;
-  transition: all 0.2s ease-in-out 0s;
   text-decoration: none;
 }
 #tutorial .tabs a.selected {
-  z-index: 20;
   color: #fff;
   background-color: #327fc7;
   border-color: #327fc7;
   outline: none;
 }
 #tutorial .tutorial-list {
-  counter-reset: tutorialStep;
+  padding-right: 4rem;
 }
 #tutorial .tutorial-list #create-repo-step {
   margin-top: 90px;
@@ -341,14 +340,11 @@ nav a {
   border: solid 1px #e5e5e5;
   margin: 0 auto 15px;
   display: block;
-  transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out 0s;
 }
 #tutorial .option-all .hero-octicon .mega-octicon {
   font-size: 48px;
   display: inline-block;
   text-decoration: none;
-  -webkit-font-smoothing: antialiased;
   color: #4183c4;
   line-height: 100px;
 }
@@ -393,7 +389,6 @@ nav a {
   font: normal normal 48px octicons;
   display: inline-block;
   text-decoration: none;
-  -webkit-font-smoothing: antialiased;
   color: #4183c4;
   line-height: 100px;
 }
