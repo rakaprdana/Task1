@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
+  background-color: #f5f5f5;
   line-height: 1.4;
   font-size: 14px;
 }
@@ -135,7 +136,6 @@ nav {
 }
 
 #tutorial {
-  border: red solid;
   padding-bottom: 20px;
   h1 {
     margin: 90px auto 0 auto;
@@ -194,6 +194,169 @@ nav {
       background-color: #327fc7;
       border-color: #327fc7;
       outline: none;
+    }
+  }
+  .tutorial-list {
+    border: blue solid;
+    counter-reset: tutorialStep;
+    #create-repo-step {
+      margin-top: 90px;
+      margin-bottom: 70px;
+      background: #fff url(assets/section-tutorial/user-repo@2x.png) right 0
+        no-repeat;
+      border-radius: 5px;
+      background-size: 446px 328px;
+      border: 1px #ddd solid;
+      padding: 2rem;
+      text-align: center;
+      h4 {
+        width: 50%;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 1em;
+      }
+      p {
+        width: 50%;
+        font-weight: 300;
+        line-height: 1.7em;
+      }
+      a {
+        text-decoration: none;
+        color: #4183c4;
+      }
+    }
+    .image-right {
+      padding-right: 440px;
+    }
+  }
+  .wrapper {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+  }
+  ul {
+    list-style: none;
+  }
+  .question {
+    text-align: center;
+    margin-bottom: 70px;
+    border: 1px #ddd solid;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px 0 60px;
+    h4 {
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 1em;
+    }
+    .tabs {
+      margin: 30px auto 0;
+    }
+  }
+  .option-terminal {
+    border: red solid;
+    text-align: center;
+    margin-bottom: 70px;
+    border: 1px #ddd solid;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px 0 60px;
+    h4 {
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 1em;
+    }
+    p {
+      margin: 30px 120px 30px;
+      font-weight: 300;
+      line-height: 1.7em;
+      font-size: 20px;
+    }
+    .terminal {
+      width: 75%;
+      margin: 30px auto 0;
+      .header {
+        border: 1px solid #9c9c9c;
+        border-bottom-color: #111;
+        display: block;
+        height: 25px;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        text-align: center;
+        font-size: 13px;
+        line-height: 25px;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+        color: #444;
+      }
+      .shell {
+        font-family: Consolas, "Liberation Mono", Courier, monospace;
+        font-size: 17px;
+        line-height: 28px;
+        color: #eeeb82;
+        background-color: #3d3d3d;
+        overflow: hidden;
+        padding: 20px;
+        margin: 0;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        text-align: left;
+        display: block;
+        p {
+          margin: 0;
+          font-weight: bold;
+          line-height: 1.7em;
+          .path {
+            color: #71cfee;
+            user-select: none;
+            padding-right: 0.6em;
+          }
+          .prompt {
+            color: #d74d52;
+            user-select: none;
+            padding-right: 0.6em;
+          }
+          .em {
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+  .option-all {
+    background-color: #fff;
+    border-radius: 5px;
+    background-size: 446px 328px;
+    border: 1px #ddd solid;
+    padding: 2rem;
+    text-align: center;
+    h4 {
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 1em;
+    }
+    p {
+      margin: 30px 120px 30px;
+      font-weight: 300;
+      line-height: 1.7em;
+    }
+    .hero-octicon {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      text-align: center;
+      border: solid 1px #e5e5e5;
+      margin: 0 auto 15px;
+      display: block;
+      transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out 0s;
+      .mega-octicon {
+        font-size: 48px;
+        display: inline-block;
+        text-decoration: none;
+        -webkit-font-smoothing: antialiased;
+        color: #4183c4;
+        line-height: 100px;
+      }
     }
   }
 }
