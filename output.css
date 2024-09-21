@@ -8,6 +8,9 @@ body {
   line-height: 1.4;
   font-size: 14px;
 }
+body ul {
+  list-style: none;
+}
 
 nav {
   display: flex;
@@ -186,7 +189,6 @@ nav a {
   outline: none;
 }
 #tutorial .tutorial-list {
-  border: blue solid;
   counter-reset: tutorialStep;
 }
 #tutorial .tutorial-list #create-repo-step {
@@ -346,6 +348,109 @@ nav a {
   -webkit-font-smoothing: antialiased;
   color: #4183c4;
   line-height: 100px;
+}
+
+#next-steps {
+  margin-top: 80px;
+  font-weight: 400;
+}
+#next-steps h1 {
+  margin: 90px auto 0 auto;
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 60px;
+  text-align: center;
+  max-width: 910px;
+  color: #333;
+}
+#next-steps .wrapper {
+  padding-top: 80px;
+  padding-right: 40px;
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+}
+#next-steps li {
+  padding: 0 20px 0;
+  display: table-cell;
+  text-align: center;
+  padding: 0 20px 0;
+}
+#next-steps li .hero-octicon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  border: solid 1px #e5e5e5;
+  margin: 0 auto 15px;
+  display: block;
+  margin-bottom: 35px;
+}
+#next-steps li .hero-octicon .mega-octicon {
+  font: normal normal 48px octicons;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  color: #4183c4;
+  line-height: 100px;
+}
+#next-steps li h4 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1em;
+}
+#next-steps li p {
+  margin: 15px 0 30px;
+  line-height: 1.7em;
+}
+#next-steps li a {
+  text-decoration: none;
+  color: #4183c4;
+}
+#next-steps li:first-child {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer {
+  position: relative;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #777;
+  clear: both;
+  width: 980px;
+  padding: 40px 0;
+  margin: 70px auto 0 auto;
+  border-top: 1px solid #eee;
+}
+footer ul {
+  list-style: none;
+}
+footer .right {
+  float: right;
+  margin: 0;
+}
+footer a {
+  color: #4183c4;
+  text-decoration: none;
+}
+footer .octicon-mark-github {
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  color: #ccc;
+  height: 24px;
+  width: 24px;
+  margin-left: -12px;
+  font-size: 24px;
+  line-height: 1;
+}
+footer .site-footer-links li {
+  margin-left: 10px;
+  display: inline-block;
+}
+footer .site-footer-links li:first-child {
+  margin-left: 0;
 }
 
 /*# sourceMappingURL=output.css.map */
