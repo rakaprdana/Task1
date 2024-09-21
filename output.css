@@ -208,9 +208,14 @@ nav a {
   line-height: 1em;
 }
 #tutorial .tutorial-list #create-repo-step p {
+  font-size: 18px;
   width: 50%;
   font-weight: 300;
   line-height: 1.7em;
+}
+#tutorial .tutorial-list #create-repo-step .details {
+  font-size: 14px;
+  font-weight: 400;
 }
 #tutorial .tutorial-list #create-repo-step a {
   text-decoration: none;
@@ -244,7 +249,6 @@ nav a {
   margin: 30px auto 0;
 }
 #tutorial .option-terminal {
-  border: red solid;
   text-align: center;
   margin-bottom: 70px;
   border: 1px #ddd solid;
