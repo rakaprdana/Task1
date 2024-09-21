@@ -15,7 +15,7 @@ body ul {
 nav {
   display: flex;
   justify-content: end;
-  padding: 2rem 2rem 2rem 0;
+  padding: 5px 10px;
   background-color: #222;
 }
 nav a {
@@ -28,7 +28,7 @@ nav a {
 }
 
 #hero-spot {
-  padding: 40px 0 0;
+  padding: 4px 0 0;
   position: relative;
   overflow: hidden;
   background-color: #222;
@@ -41,9 +41,8 @@ nav a {
 #hero-spot h1 {
   color: #fff;
   max-width: 830px;
-  margin-top: 50px;
   font-size: 48px;
-  margin: 90px auto 0 auto;
+  margin: 40px auto 0 auto;
   font-weight: 200;
   line-height: 60px;
   text-align: center;
@@ -53,7 +52,7 @@ nav a {
   line-height: 1.5em;
   max-width: none;
   font-size: 18px;
-  margin: 10px auto 60px;
+  padding-bottom: 10px;
   font-weight: 200;
   text-align: center;
 }
