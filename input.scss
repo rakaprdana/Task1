@@ -496,21 +496,23 @@ footer {
 // RESPONSIVE START
 @media screen and (max-width: 430px) {
   nav {
+    border: yellow solid;
     border-bottom: 1px #333 solid;
     padding-top: 1rem;
     a {
       padding: 8px 16px 8px auto;
-      font-size: 12px;
+      font-size: 8px;
     }
   }
   #hero-spot {
+    border: blue solid;
     padding-top: 4rem;
     .logo {
       width: 120px;
     }
     h1 {
       width: 75%;
-      font-size: 32px;
+      font-size: 28px;
       line-height: 40px;
       margin-top: 20px;
     }
@@ -547,22 +549,22 @@ footer {
         text-align: left;
         border-radius: 0;
         padding: 0;
-        width: 45%;
-        height: 14rem;
-        background-size: 240px 220px;
+        width: 39.7%;
+        height: 13rem;
+        background-size: 215px 190px;
         .desc {
           padding-right: 0;
           h4 {
-            padding-left: 2rem;
+            padding-left: 1rem;
             font-size: 16px;
-            width: 12rem;
           }
           p {
             width: 40%;
             margin-left: 1rem;
-            font-size: 12px;
+            font-size: 10px;
           }
           .details {
+            width: 40%;
             font-size: 8px;
           }
         }
@@ -570,15 +572,13 @@ footer {
     }
     .question {
       border-radius: 0;
-      width: 44%;
+      width: 39.7%;
       h4 {
-        font-size: 24px;
-        margin-right: 28px;
+        font-size: 20px;
       }
       .tabs2 {
         padding: 0;
-        width: 80%;
-        margin-left: 20px;
+        width: 90%;
         li {
           font-size: 12px;
           padding: 0;
@@ -587,7 +587,7 @@ footer {
       }
     }
     .option-terminal {
-      width: 40%;
+      width: 39.7%;
       border-radius: 0;
       h4 {
         width: 70%;
@@ -601,8 +601,8 @@ footer {
         font-size: 16px;
       }
       .terminal {
-        margin-left: 2rem;
-        width: 85%;
+        margin-left: 1.5rem;
+        width: 88%;
         p {
           width: 100%;
           padding: 0;
@@ -612,17 +612,19 @@ footer {
       }
     }
     .option-all {
-      width: 40%;
+      border-radius: 0;
+      width: 32.5%;
       h4 {
         margin-left: 2rem;
         width: 75%;
       }
       p {
+        text-align: center;
         margin-left: 2rem;
-        width: 75%;
+        width: 80%;
       }
       .hero-icon {
-        margin-left: 8rem;
+        margin-left: 7rem;
       }
     }
   }
@@ -637,13 +639,16 @@ footer {
     .wrapper {
       margin: 0;
       padding: 0;
-      width: 80%;
+      width: 75%;
       li {
         padding: 0;
         padding-top: 20px;
         padding-right: 16px;
-        padding-left: 18px;
+        padding-left: 14px;
         margin: 0;
+      }
+      h4 {
+        font-size: 20px;
       }
       p {
         font-size: 12px;
@@ -651,7 +656,7 @@ footer {
     }
   }
   footer {
-    width: 100%;
+    width: 91%;
     padding-left: 0;
     padding-right: 0;
     .right {

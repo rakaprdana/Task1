@@ -483,14 +483,16 @@ footer .icon-mark-github {
 
 @media screen and (max-width: 430px) {
   nav {
+    border: yellow solid;
     border-bottom: 1px #333 solid;
     padding-top: 1rem;
   }
   nav a {
     padding: 8px 16px 8px auto;
-    font-size: 12px;
+    font-size: 8px;
   }
   #hero-spot {
+    border: blue solid;
     padding-top: 4rem;
   }
   #hero-spot .logo {
@@ -498,7 +500,7 @@ footer .icon-mark-github {
   }
   #hero-spot h1 {
     width: 75%;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 40px;
     margin-top: 20px;
   }
@@ -532,38 +534,36 @@ footer .icon-mark-github {
     text-align: left;
     border-radius: 0;
     padding: 0;
-    width: 45%;
-    height: 14rem;
-    background-size: 240px 220px;
+    width: 39.7%;
+    height: 13rem;
+    background-size: 215px 190px;
   }
   #tutorial .tutorial-list #create-repo-step .desc {
     padding-right: 0;
   }
   #tutorial .tutorial-list #create-repo-step .desc h4 {
-    padding-left: 2rem;
+    padding-left: 1rem;
     font-size: 16px;
-    width: 12rem;
   }
   #tutorial .tutorial-list #create-repo-step .desc p {
     width: 40%;
     margin-left: 1rem;
-    font-size: 12px;
+    font-size: 10px;
   }
   #tutorial .tutorial-list #create-repo-step .desc .details {
+    width: 40%;
     font-size: 8px;
   }
   #tutorial .question {
     border-radius: 0;
-    width: 44%;
+    width: 39.7%;
   }
   #tutorial .question h4 {
-    font-size: 24px;
-    margin-right: 28px;
+    font-size: 20px;
   }
   #tutorial .question .tabs2 {
     padding: 0;
-    width: 80%;
-    margin-left: 20px;
+    width: 90%;
   }
   #tutorial .question .tabs2 li {
     font-size: 12px;
@@ -571,7 +571,7 @@ footer .icon-mark-github {
     margin: 0;
   }
   #tutorial .option-terminal {
-    width: 40%;
+    width: 39.7%;
     border-radius: 0;
   }
   #tutorial .option-terminal h4 {
@@ -586,8 +586,8 @@ footer .icon-mark-github {
     font-size: 16px;
   }
   #tutorial .option-terminal .terminal {
-    margin-left: 2rem;
-    width: 85%;
+    margin-left: 1.5rem;
+    width: 88%;
   }
   #tutorial .option-terminal .terminal p {
     width: 100%;
@@ -596,18 +596,20 @@ footer .icon-mark-github {
     font-size: 12px;
   }
   #tutorial .option-all {
-    width: 40%;
+    border-radius: 0;
+    width: 32.5%;
   }
   #tutorial .option-all h4 {
     margin-left: 2rem;
     width: 75%;
   }
   #tutorial .option-all p {
+    text-align: center;
     margin-left: 2rem;
-    width: 75%;
+    width: 80%;
   }
   #tutorial .option-all .hero-icon {
-    margin-left: 8rem;
+    margin-left: 7rem;
   }
   #next-steps {
     margin: 0;
@@ -621,20 +623,23 @@ footer .icon-mark-github {
   #next-steps .wrapper {
     margin: 0;
     padding: 0;
-    width: 80%;
+    width: 75%;
   }
   #next-steps .wrapper li {
     padding: 0;
     padding-top: 20px;
     padding-right: 16px;
-    padding-left: 18px;
+    padding-left: 14px;
     margin: 0;
+  }
+  #next-steps .wrapper h4 {
+    font-size: 20px;
   }
   #next-steps .wrapper p {
     font-size: 12px;
   }
   footer {
-    width: 100%;
+    width: 91%;
     padding-left: 0;
     padding-right: 0;
   }
