@@ -558,10 +558,12 @@ footer .icon-mark-github {
   }
   #tutorial .question h4 {
     font-size: 24px;
+    margin-right: 28px;
   }
   #tutorial .question .tabs2 {
     padding: 0;
     width: 80%;
+    margin-left: 20px;
   }
   #tutorial .question .tabs2 li {
     font-size: 12px;
@@ -569,22 +571,23 @@ footer .icon-mark-github {
     margin: 0;
   }
   #tutorial .option-terminal {
-    width: 45%;
+    width: 40%;
     border-radius: 0;
   }
   #tutorial .option-terminal h4 {
     width: 70%;
-    margin-left: 4rem;
+    margin-left: 2rem;
+    padding-left: 28px;
   }
   #tutorial .option-terminal p {
     margin-left: 2rem;
-    padding-left: 20px;
+    padding-left: 16px;
     width: 75%;
     font-size: 16px;
   }
   #tutorial .option-terminal .terminal {
-    margin-left: 3rem;
-    width: 80%;
+    margin-left: 2rem;
+    width: 85%;
   }
   #tutorial .option-terminal .terminal p {
     width: 100%;

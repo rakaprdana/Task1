@@ -573,10 +573,12 @@ footer {
       width: 44%;
       h4 {
         font-size: 24px;
+        margin-right: 28px;
       }
       .tabs2 {
         padding: 0;
         width: 80%;
+        margin-left: 20px;
         li {
           font-size: 12px;
           padding: 0;
@@ -585,23 +587,22 @@ footer {
       }
     }
     .option-terminal {
-      width: 45%;
-
+      width: 40%;
       border-radius: 0;
       h4 {
         width: 70%;
-        margin-left: 4rem;
-        // border: blue solid;
+        margin-left: 2rem;
+        padding-left: 28px;
       }
       p {
         margin-left: 2rem;
-        padding-left: 20px;
+        padding-left: 16px;
         width: 75%;
         font-size: 16px;
       }
       .terminal {
-        margin-left: 3rem;
-        width: 80%;
+        margin-left: 2rem;
+        width: 85%;
         p {
           width: 100%;
           padding: 0;
