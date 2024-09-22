@@ -544,25 +544,25 @@ footer {
     .tutorial-list {
       padding-left: 0;
       #create-repo-step {
+        text-align: left;
         border-radius: 0;
         padding: 0;
         width: 45%;
-        height: 80%;
-        background-size: 220px 200px;
+        height: 14rem;
+        background-size: 240px 220px;
         .desc {
           padding-right: 0;
           h4 {
-            margin-bottom: 2rem;
-            padding-left: 1rem;
-            font-size: 20px;
+            padding-left: 2rem;
+            font-size: 16px;
             width: 12rem;
           }
           p {
-            margin-bottom: 16px;
-            font-size: 8px;
+            width: 40%;
+            margin-left: 1rem;
+            font-size: 12px;
           }
           .details {
-            margin-bottom: 2rem;
             font-size: 8px;
           }
         }
