@@ -243,8 +243,6 @@ nav a {
   line-height: 1em;
 }
 #tutorial .question .tabs2 {
-  margin: 30px auto 0;
-  padding-right: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -261,11 +259,7 @@ nav a {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-#tutorial .question .tabs2 li:nth-child(even) a {
-  margin: 0 1px;
-}
 #tutorial .question .tabs2 li:last-child a {
-  margin-left: 0;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -370,7 +364,7 @@ nav a {
   font-weight: 300;
   line-height: 1.7em;
 }
-#tutorial .option-all .hero-octicon {
+#tutorial .option-all .hero-icon {
   width: 100px;
   height: 100px;
   border-radius: 50px;
@@ -379,7 +373,7 @@ nav a {
   margin: 0 auto 15px;
   display: block;
 }
-#tutorial .option-all .hero-octicon .mega-octicon {
+#tutorial .option-all .hero-icon .mega-icon {
   font-size: 48px;
   display: inline-block;
   text-decoration: none;
@@ -412,7 +406,7 @@ nav a {
   display: table-cell;
   text-align: center;
 }
-#next-steps li .hero-octicon {
+#next-steps li .hero-icon {
   width: 100px;
   height: 100px;
   border-radius: 50px;
@@ -422,8 +416,8 @@ nav a {
   display: block;
   margin-bottom: 35px;
 }
-#next-steps li .hero-octicon .mega-octicon {
-  font: normal normal 48px octicons;
+#next-steps li .hero-icon .mega-icon {
+  font: normal normal 48px icons;
   display: inline-block;
   text-decoration: none;
   color: #4183c4;
@@ -478,7 +472,7 @@ footer a {
   color: #4183c4;
   text-decoration: none;
 }
-footer .octicon-mark-github {
+footer .icon-mark-github {
   position: absolute;
   top: 48px;
   left: 50%;
@@ -560,13 +554,14 @@ footer .octicon-mark-github {
   }
   #tutorial .question {
     border-radius: 0;
-    width: 40%;
+    width: 44%;
   }
   #tutorial .question h4 {
     font-size: 24px;
   }
   #tutorial .question .tabs2 {
     padding: 0;
+    width: 80%;
   }
   #tutorial .question .tabs2 li {
     font-size: 12px;
@@ -608,7 +603,7 @@ footer .octicon-mark-github {
     margin-left: 2rem;
     width: 75%;
   }
-  #tutorial .option-all .hero-octicon {
+  #tutorial .option-all .hero-icon {
     margin-left: 8rem;
   }
   #next-steps {
@@ -648,7 +643,7 @@ footer .octicon-mark-github {
   footer .right li {
     margin-top: 4px;
   }
-  footer .octicon-mark-github {
+  footer .icon-mark-github {
     margin-top: 4rem;
     left: 47%;
   }

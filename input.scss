@@ -250,8 +250,6 @@ nav {
       line-height: 1em;
     }
     .tabs2 {
-      margin: 30px auto 0;
-      padding-right: 4rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -267,12 +265,8 @@ nav {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
       }
-      li:nth-child(even) a {
-        margin: 0 1px;
-      }
 
       li:last-child a {
-        margin-left: 0;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
       }
@@ -378,7 +372,7 @@ nav {
       font-weight: 300;
       line-height: 1.7em;
     }
-    .hero-octicon {
+    .hero-icon {
       width: 100px;
       height: 100px;
       border-radius: 50px;
@@ -386,7 +380,7 @@ nav {
       border: solid 1px #e5e5e5;
       margin: 0 auto 15px;
       display: block;
-      .mega-octicon {
+      .mega-icon {
         font-size: 48px;
         display: inline-block;
         text-decoration: none;
@@ -420,7 +414,7 @@ nav {
     padding: 0 20px 0;
     display: table-cell;
     text-align: center;
-    .hero-octicon {
+    .hero-icon {
       width: 100px;
       height: 100px;
       border-radius: 50px;
@@ -429,8 +423,8 @@ nav {
       margin: 0 auto 15px;
       display: block;
       margin-bottom: 35px;
-      .mega-octicon {
-        font: normal normal 48px octicons;
+      .mega-icon {
+        font: normal normal 48px icons;
         display: inline-block;
         text-decoration: none;
         color: #4183c4;
@@ -489,7 +483,7 @@ footer {
     color: #4183c4;
     text-decoration: none;
   }
-  .octicon-mark-github {
+  .icon-mark-github {
     position: absolute;
     top: 48px;
     left: 50%;
@@ -576,12 +570,13 @@ footer {
     }
     .question {
       border-radius: 0;
-      width: 40%;
+      width: 44%;
       h4 {
         font-size: 24px;
       }
       .tabs2 {
         padding: 0;
+        width: 80%;
         li {
           font-size: 12px;
           padding: 0;
@@ -625,7 +620,7 @@ footer {
         margin-left: 2rem;
         width: 75%;
       }
-      .hero-octicon {
+      .hero-icon {
         margin-left: 8rem;
       }
     }
@@ -667,7 +662,7 @@ footer {
         margin-top: 4px;
       }
     }
-    .octicon-mark-github {
+    .icon-mark-github {
       margin-top: 4rem;
       left: 47%;
     }
