@@ -145,7 +145,7 @@ nav a {
   font-size: 21px;
   max-width: 740px;
 }
-#tutorial .tabs {
+#tutorial .tabs1 {
   padding-right: 4rem;
   display: flex;
   align-items: center;
@@ -154,24 +154,24 @@ nav a {
   font-size: 0;
   list-style: none;
 }
-#tutorial .tabs li {
+#tutorial .tabs1 li {
   font-size: 15px;
   margin: 0;
   display: inline-block;
 }
-#tutorial .tabs li:first-child a {
+#tutorial .tabs1 li:first-child a {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-#tutorial .tabs li:nth-child(even) a {
+#tutorial .tabs1 li:nth-child(even) a {
   margin: 0 1px;
 }
-#tutorial .tabs li:last-child a {
+#tutorial .tabs1 li:last-child a {
   margin-left: 0;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-#tutorial .tabs a {
+#tutorial .tabs1 a {
   color: #323232;
   padding: 10px 20px;
   display: inline-block;
@@ -180,7 +180,7 @@ nav a {
   line-height: 1em;
   text-decoration: none;
 }
-#tutorial .tabs a.selected {
+#tutorial .tabs1 a.selected {
   color: #fff;
   background-color: #327fc7;
   border-color: #327fc7;
@@ -243,8 +243,47 @@ nav a {
   font-weight: 300;
   line-height: 1em;
 }
-#tutorial .question .tabs {
+#tutorial .question .tabs2 {
   margin: 30px auto 0;
+  padding-right: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 45px auto 0;
+  font-size: 0;
+  list-style: none;
+}
+#tutorial .question .tabs2 li {
+  font-size: 15px;
+  margin: 0;
+  display: inline-block;
+}
+#tutorial .question .tabs2 li:first-child a {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#tutorial .question .tabs2 li:nth-child(even) a {
+  margin: 0 1px;
+}
+#tutorial .question .tabs2 li:last-child a {
+  margin-left: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#tutorial .question .tabs2 a {
+  color: #323232;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #dddddd;
+  position: relative;
+  line-height: 1em;
+  text-decoration: none;
+}
+#tutorial .question .tabs2 a.selected {
+  color: #fff;
+  background-color: #327fc7;
+  border-color: #327fc7;
+  outline: none;
 }
 #tutorial .option-terminal {
   text-align: center;
@@ -373,14 +412,13 @@ nav a {
   padding: 0 20px 0;
   display: table-cell;
   text-align: center;
-  padding: 0 20px 0;
 }
 #next-steps li .hero-octicon {
   width: 100px;
   height: 100px;
   border-radius: 50px;
   text-align: center;
-  border: solid 1px #e5e5e5;
+  border: purple solid;
   margin: 0 auto 15px;
   display: block;
   margin-bottom: 35px;
@@ -449,6 +487,132 @@ footer .site-footer-links li {
 }
 footer .site-footer-links li:first-child {
   margin-left: 0;
+}
+
+@media screen and (max-width: 430px) {
+  nav {
+    border-bottom: 1px #333 solid;
+    padding-top: 1rem;
+  }
+  nav a {
+    padding: 8px 16px 8px auto;
+    font-size: 12px;
+  }
+  #hero-spot {
+    padding-top: 4rem;
+  }
+  #hero-spot .logo {
+    width: 120px;
+  }
+  #hero-spot h1 {
+    width: 75%;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 20px;
+  }
+  #hero-spot h2 {
+    width: 91%;
+    margin-left: 1rem;
+  }
+  #tutorial h1 {
+    margin-top: 30px;
+    font-size: 28px;
+    line-height: normal;
+    width: 91%;
+  }
+  #tutorial h2 {
+    font-size: 14px;
+  }
+  #tutorial .tabs1 li {
+    font-size: 12px;
+  }
+  #tutorial .tabs1 li:last-child a {
+    padding: 12px;
+    margin-left: 8px;
+  }
+  #tutorial .tabs1 a.selected {
+    width: 80%;
+  }
+  #tutorial .tutorial-list {
+    padding-left: 0;
+  }
+  #tutorial .tutorial-list #create-repo-step {
+    border-radius: 0;
+    padding: 0;
+    width: 45%;
+    height: 80%;
+    background-size: 220px 200px;
+  }
+  #tutorial .tutorial-list #create-repo-step .desc {
+    padding-right: 0;
+  }
+  #tutorial .tutorial-list #create-repo-step .desc h4 {
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    font-size: 20px;
+    width: 12rem;
+  }
+  #tutorial .tutorial-list #create-repo-step .desc p {
+    margin-bottom: 16px;
+    font-size: 8px;
+  }
+  #tutorial .tutorial-list #create-repo-step .desc .details {
+    margin-bottom: 2rem;
+    font-size: 8px;
+  }
+  #tutorial .question {
+    border-radius: 0;
+    width: 40%;
+  }
+  #tutorial .question h4 {
+    font-size: 24px;
+  }
+  #tutorial .question .tabs2 {
+    padding: 0;
+  }
+  #tutorial .question .tabs2 li {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  #tutorial .option-terminal {
+    width: 45%;
+    border-radius: 0;
+  }
+  #tutorial .option-terminal h4 {
+    width: 70%;
+    margin-left: 4rem;
+  }
+  #tutorial .option-terminal p {
+    margin-left: 2rem;
+    padding-left: 20px;
+    width: 75%;
+    font-size: 16px;
+  }
+  #tutorial .option-terminal .terminal {
+    margin-left: 3rem;
+    width: 80%;
+  }
+  #tutorial .option-terminal .terminal p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+  }
+  #tutorial .option-all {
+    width: 40%;
+  }
+  #tutorial .option-all h4 {
+    margin-left: 2rem;
+    width: 75%;
+  }
+  #tutorial .option-all p {
+    margin-left: 2rem;
+    width: 75%;
+  }
+  #tutorial .option-all .hero-octicon {
+    margin-left: 8rem;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */

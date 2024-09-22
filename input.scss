@@ -156,7 +156,7 @@ nav {
     font-size: 21px;
     max-width: 740px;
   }
-  .tabs {
+  .tabs1 {
     padding-right: 4rem;
     display: flex;
     align-items: center;
@@ -255,8 +255,48 @@ nav {
       font-weight: 300;
       line-height: 1em;
     }
-    .tabs {
+    .tabs2 {
       margin: 30px auto 0;
+      padding-right: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 45px auto 0;
+      font-size: 0;
+      list-style: none;
+      li {
+        font-size: 15px;
+        margin: 0;
+        display: inline-block;
+      }
+      li:first-child a {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      li:nth-child(even) a {
+        margin: 0 1px;
+      }
+
+      li:last-child a {
+        margin-left: 0;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+      a {
+        color: #323232;
+        padding: 10px 20px;
+        display: inline-block;
+        border: 1px solid #dddddd;
+        position: relative;
+        line-height: 1em;
+        text-decoration: none;
+      }
+      a.selected {
+        color: #fff;
+        background-color: #327fc7;
+        border-color: #327fc7;
+        outline: none;
+      }
     }
   }
   .option-terminal {
@@ -386,13 +426,13 @@ nav {
     padding: 0 20px 0;
     display: table-cell;
     text-align: center;
-    padding: 0 20px 0;
     .hero-octicon {
       width: 100px;
       height: 100px;
       border-radius: 50px;
       text-align: center;
-      border: solid 1px #e5e5e5;
+      border: purple solid;
+      // border: solid 1px #e5e5e5;
       margin: 0 auto 15px;
       display: block;
       margin-bottom: 35px;
@@ -466,3 +506,137 @@ footer {
     }
   }
 }
+
+// RESPONSIVE START
+@media screen and (max-width: 430px) {
+  nav {
+    border-bottom: 1px #333 solid;
+    padding-top: 1rem;
+    a {
+      padding: 8px 16px 8px auto;
+      font-size: 12px;
+    }
+  }
+  #hero-spot {
+    padding-top: 4rem;
+    .logo {
+      width: 120px;
+    }
+    h1 {
+      width: 75%;
+      font-size: 32px; // Reduce font size for h1
+      line-height: 40px; // Adjust line height
+      margin-top: 20px;
+    }
+    h2 {
+      width: 91%;
+      margin-left: 1rem;
+    }
+  }
+  #tutorial {
+    h1 {
+      margin-top: 30px;
+      font-size: 28px;
+      line-height: normal;
+      width: 91%;
+    }
+    h2 {
+      font-size: 14px;
+    }
+    .tabs1 {
+      li {
+        font-size: 12px;
+      }
+      li:last-child a {
+        padding: 12px;
+        margin-left: 8px;
+      }
+      a.selected {
+        width: 80%;
+      }
+    }
+    .tutorial-list {
+      padding-left: 0;
+      #create-repo-step {
+        border-radius: 0;
+        padding: 0;
+        width: 45%;
+        height: 80%;
+        background-size: 220px 200px;
+        .desc {
+          padding-right: 0;
+          h4 {
+            margin-bottom: 2rem;
+            padding-left: 1rem;
+            font-size: 20px;
+            width: 12rem;
+          }
+          p {
+            margin-bottom: 16px;
+            font-size: 8px;
+          }
+          .details {
+            margin-bottom: 2rem;
+            font-size: 8px;
+          }
+        }
+      }
+    }
+    .question {
+      border-radius: 0;
+      width: 40%;
+      h4 {
+        font-size: 24px;
+      }
+      .tabs2 {
+        padding: 0;
+        li {
+          font-size: 12px;
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+    .option-terminal {
+      width: 45%;
+
+      border-radius: 0;
+      h4 {
+        width: 70%;
+        margin-left: 4rem;
+        // border: blue solid;
+      }
+      p {
+        margin-left: 2rem;
+        padding-left: 20px;
+        width: 75%;
+        font-size: 16px;
+      }
+      .terminal {
+        margin-left: 3rem;
+        width: 80%;
+        p {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          font-size: 12px;
+        }
+      }
+    }
+    .option-all {
+      width: 40%;
+      h4 {
+        margin-left: 2rem;
+        width: 75%;
+      }
+      p {
+        margin-left: 2rem;
+        width: 75%;
+      }
+      .hero-octicon {
+        margin-left: 8rem;
+      }
+    }
+  }
+}
+// RESPONSIVE END
