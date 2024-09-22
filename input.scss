@@ -496,7 +496,6 @@ footer {
 // RESPONSIVE START
 @media screen and (max-width: 430px) {
   nav {
-    border: yellow solid;
     border-bottom: 1px #333 solid;
     padding-top: 1rem;
     a {
@@ -505,7 +504,6 @@ footer {
     }
   }
   #hero-spot {
-    border: blue solid;
     padding-top: 4rem;
     .logo {
       width: 120px;
