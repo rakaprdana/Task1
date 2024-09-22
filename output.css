@@ -418,7 +418,7 @@ nav a {
   height: 100px;
   border-radius: 50px;
   text-align: center;
-  border: purple solid;
+  border: solid 1px #e5e5e5;
   margin: 0 auto 15px;
   display: block;
   margin-bottom: 35px;
@@ -612,6 +612,46 @@ footer .site-footer-links li:first-child {
   }
   #tutorial .option-all .hero-octicon {
     margin-left: 8rem;
+  }
+  #next-steps {
+    margin: 0;
+  }
+  #next-steps h1 {
+    padding-bottom: 2rem;
+    width: 80%;
+    font-size: 32px;
+    line-height: 1em;
+  }
+  #next-steps .wrapper {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+  }
+  #next-steps .wrapper li {
+    padding: 0;
+    padding-top: 20px;
+    padding-right: 16px;
+    padding-left: 18px;
+    margin: 0;
+  }
+  #next-steps .wrapper p {
+    font-size: 12px;
+  }
+  footer {
+    border: red solid;
+    width: 100%;
+  }
+  footer .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    border: green solid;
+  }
+  footer ul {
+    display: flex;
+    width: 20%;
   }
 }
 
