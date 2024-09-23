@@ -194,6 +194,7 @@ nav {
   }
   .tutorial-list {
     padding-right: 4rem;
+    border: #f5f5f5 solid;
     #create-repo-step {
       margin-top: 90px;
       margin-bottom: 70px;
@@ -204,12 +205,30 @@ nav {
       border: 1px #ddd solid;
       padding: 2rem;
       text-align: center;
+      .step-circle {
+        background-color: #327fc7;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 4rem;
+        left: 1rem;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 100%;
+        p.num {
+          font-size: 24px;
+          font-weight: bold;
+          color: white;
+        }
+      }
       h4 {
         width: 50%;
         font-size: 30px;
         font-weight: 300;
         line-height: 1em;
       }
+
       p {
         font-size: 18px;
         width: 50%;
@@ -237,10 +256,27 @@ nav {
   ul {
     list-style: none;
   }
+  .step-circle {
+    background-color: #327fc7;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 19%;
+    left: 1rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    p.num {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+    }
+  }
   .question {
+    position: relative;
     text-align: center;
     margin-bottom: 70px;
-    border: 1px #ddd solid;
     background-color: #fff;
     border-radius: 5px;
     padding: 40px 0 60px;
@@ -294,6 +330,61 @@ nav {
     background-color: #fff;
     border-radius: 5px;
     padding: 40px 0 60px;
+    .step-circle {
+      background-color: #327fc7;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 31%;
+      left: 1rem;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 100%;
+      p.num {
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+      }
+    }
+    .terminal-hello {
+      .step-circle {
+        background-color: #327fc7;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 48%;
+        left: 1rem;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 100%;
+        p.num {
+          font-size: 24px;
+          font-weight: bold;
+          color: white;
+        }
+      }
+    }
+    .terminal-push {
+      .step-circle {
+        background-color: #327fc7;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 66%;
+        left: 1rem;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 100%;
+        p.num {
+          font-size: 24px;
+          font-weight: bold;
+          color: white;
+        }
+      }
+    }
     h4 {
       font-size: 30px;
       font-weight: 300;
@@ -308,6 +399,24 @@ nav {
     .terminal {
       width: 75%;
       margin: 30px auto 0;
+      .step-circle {
+        border: red solid;
+        background-color: #327fc7;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 48%;
+        left: 1rem;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 100%;
+        p.num {
+          font-size: 24px;
+          font-weight: bold;
+          color: white;
+        }
+      }
       .header {
         border: 1px solid #9c9c9c;
         border-bottom-color: #111;
@@ -362,6 +471,25 @@ nav {
     border: 1px #ddd solid;
     padding: 2rem;
     text-align: center;
+    .end {
+      .step-circle {
+        background-color: #327fc7;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 86%;
+        left: 1rem;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 100%;
+        p.num {
+          font-size: 24px;
+          font-weight: bold;
+          color: white;
+        }
+      }
+    }
     h4 {
       font-size: 30px;
       font-weight: 300;
@@ -544,17 +672,27 @@ footer {
     .tutorial-list {
       padding-left: 0;
       #create-repo-step {
-        text-align: left;
+        text-align: center;
         border-radius: 0;
         padding: 0;
         width: 39.7%;
         height: 13rem;
         background-size: 215px 190px;
+        .step-circle {
+          top: 5rem;
+          left: -2px;
+          width: 2.5rem;
+          height: 2.5rem;
+          p.num {
+            font-weight: 100;
+            font-size: 16px;
+          }
+        }
         .desc {
           padding-right: 0;
           h4 {
-            padding-left: 1rem;
-            font-size: 16px;
+            padding-top: 12px;
+            font-size: 14px;
           }
           p {
             width: 40%;
@@ -566,6 +704,16 @@ footer {
             font-size: 8px;
           }
         }
+      }
+    }
+    .step-circle {
+      top: 14.3%;
+      left: -2px;
+      width: 2.5rem;
+      height: 2.5rem;
+      p.num {
+        font-weight: 100;
+        font-size: 16px;
       }
     }
     .question {
@@ -587,6 +735,41 @@ footer {
     .option-terminal {
       width: 39.7%;
       border-radius: 0;
+      .step-circle {
+        top: 26%;
+        left: -2px;
+        width: 2.5rem;
+        height: 2.5rem;
+        p.num {
+          font-size: 16px;
+          font-weight: 100;
+          margin-left: 6.5rem;
+        }
+      }
+      .terminal-hello {
+        .step-circle {
+          top: 46%;
+          left: -2px;
+          width: 2.5rem;
+          height: 2.5rem;
+          p.num {
+            font-weight: 100;
+            font-size: 16px;
+          }
+        }
+      }
+      .terminal-push {
+        .step-circle {
+          top: 65%;
+          left: -2px;
+          width: 2.5rem;
+          height: 2.5rem;
+          p.num {
+            font-weight: 100;
+            font-size: 16px;
+          }
+        }
+      }
       h4 {
         width: 70%;
         margin-left: 2rem;
@@ -612,6 +795,19 @@ footer {
     .option-all {
       border-radius: 0;
       width: 32.5%;
+      .end {
+        .step-circle {
+          top: 83.5%;
+          left: -2px;
+          width: 2.7rem;
+          height: 2.7rem;
+          p.num {
+            margin-left: 7.4rem;
+            font-weight: 100;
+            font-size: 16px;
+          }
+        }
+      }
       h4 {
         margin-left: 2rem;
         width: 75%;

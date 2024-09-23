@@ -187,6 +187,7 @@ nav a {
 }
 #tutorial .tutorial-list {
   padding-right: 4rem;
+  border: #f5f5f5 solid;
 }
 #tutorial .tutorial-list #create-repo-step {
   margin-top: 90px;
@@ -197,6 +198,23 @@ nav a {
   border: 1px #ddd solid;
   padding: 2rem;
   text-align: center;
+}
+#tutorial .tutorial-list #create-repo-step .step-circle {
+  background-color: #327fc7;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 4rem;
+  left: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+}
+#tutorial .tutorial-list #create-repo-step .step-circle p.num {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
 }
 #tutorial .tutorial-list #create-repo-step h4 {
   width: 50%;
@@ -229,10 +247,27 @@ nav a {
 #tutorial ul {
   list-style: none;
 }
+#tutorial .step-circle {
+  background-color: #327fc7;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 19%;
+  left: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+}
+#tutorial .step-circle p.num {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
 #tutorial .question {
+  position: relative;
   text-align: center;
   margin-bottom: 70px;
-  border: 1px #ddd solid;
   background-color: #fff;
   border-radius: 5px;
   padding: 40px 0 60px;
@@ -286,6 +321,57 @@ nav a {
   border-radius: 5px;
   padding: 40px 0 60px;
 }
+#tutorial .option-terminal .step-circle {
+  background-color: #327fc7;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 31%;
+  left: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+}
+#tutorial .option-terminal .step-circle p.num {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+#tutorial .option-terminal .terminal-hello .step-circle {
+  background-color: #327fc7;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 48%;
+  left: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+}
+#tutorial .option-terminal .terminal-hello .step-circle p.num {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+#tutorial .option-terminal .terminal-push .step-circle {
+  background-color: #327fc7;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 66%;
+  left: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+}
+#tutorial .option-terminal .terminal-push .step-circle p.num {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
 #tutorial .option-terminal h4 {
   font-size: 30px;
   font-weight: 300;
@@ -300,6 +386,24 @@ nav a {
 #tutorial .option-terminal .terminal {
   width: 75%;
   margin: 30px auto 0;
+}
+#tutorial .option-terminal .terminal .step-circle {
+  border: red solid;
+  background-color: #327fc7;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 48%;
+  left: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+}
+#tutorial .option-terminal .terminal .step-circle p.num {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
 }
 #tutorial .option-terminal .terminal .header {
   border: 1px solid #9c9c9c;
@@ -353,6 +457,23 @@ nav a {
   border: 1px #ddd solid;
   padding: 2rem;
   text-align: center;
+}
+#tutorial .option-all .end .step-circle {
+  background-color: #327fc7;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 86%;
+  left: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+}
+#tutorial .option-all .end .step-circle p.num {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
 }
 #tutorial .option-all h4 {
   font-size: 30px;
@@ -529,19 +650,29 @@ footer .icon-mark-github {
     padding-left: 0;
   }
   #tutorial .tutorial-list #create-repo-step {
-    text-align: left;
+    text-align: center;
     border-radius: 0;
     padding: 0;
     width: 39.7%;
     height: 13rem;
     background-size: 215px 190px;
   }
+  #tutorial .tutorial-list #create-repo-step .step-circle {
+    top: 5rem;
+    left: -2px;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  #tutorial .tutorial-list #create-repo-step .step-circle p.num {
+    font-weight: 100;
+    font-size: 16px;
+  }
   #tutorial .tutorial-list #create-repo-step .desc {
     padding-right: 0;
   }
   #tutorial .tutorial-list #create-repo-step .desc h4 {
-    padding-left: 1rem;
-    font-size: 16px;
+    padding-top: 12px;
+    font-size: 14px;
   }
   #tutorial .tutorial-list #create-repo-step .desc p {
     width: 40%;
@@ -551,6 +682,16 @@ footer .icon-mark-github {
   #tutorial .tutorial-list #create-repo-step .desc .details {
     width: 40%;
     font-size: 8px;
+  }
+  #tutorial .step-circle {
+    top: 14.3%;
+    left: -2px;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  #tutorial .step-circle p.num {
+    font-weight: 100;
+    font-size: 16px;
   }
   #tutorial .question {
     border-radius: 0;
@@ -571,6 +712,37 @@ footer .icon-mark-github {
   #tutorial .option-terminal {
     width: 39.7%;
     border-radius: 0;
+  }
+  #tutorial .option-terminal .step-circle {
+    top: 26%;
+    left: -2px;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  #tutorial .option-terminal .step-circle p.num {
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 6.5rem;
+  }
+  #tutorial .option-terminal .terminal-hello .step-circle {
+    top: 46%;
+    left: -2px;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  #tutorial .option-terminal .terminal-hello .step-circle p.num {
+    font-weight: 100;
+    font-size: 16px;
+  }
+  #tutorial .option-terminal .terminal-push .step-circle {
+    top: 65%;
+    left: -2px;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  #tutorial .option-terminal .terminal-push .step-circle p.num {
+    font-weight: 100;
+    font-size: 16px;
   }
   #tutorial .option-terminal h4 {
     width: 70%;
@@ -596,6 +768,17 @@ footer .icon-mark-github {
   #tutorial .option-all {
     border-radius: 0;
     width: 32.5%;
+  }
+  #tutorial .option-all .end .step-circle {
+    top: 83.5%;
+    left: -2px;
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+  #tutorial .option-all .end .step-circle p.num {
+    margin-left: 7.4rem;
+    font-weight: 100;
+    font-size: 16px;
   }
   #tutorial .option-all h4 {
     margin-left: 2rem;

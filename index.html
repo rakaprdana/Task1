@@ -100,6 +100,9 @@
       <!-- TUTORIALS START-->
       <ul id="user-site" class="tutorial-list wrapper active">
         <li id="create-repo-step" class="image-right">
+          <div class="step-circle">
+            <p class="num">1</p>
+          </div>
           <div class="desc">
             <h4>Create a repository</h4>
             <p>
@@ -118,7 +121,7 @@
           </div>
         </li>
         <!-- QUESTION START -->
-        <li class="question animate-in">
+        <li class="question">
           <h4>What git client are you using?</h4>
           <ul class="tabs2">
             <li>
@@ -134,9 +137,15 @@
             </li>
           </ul>
         </li>
+        <div class="step-circle">
+          <p class="num">?</p>
+        </div>
         <!-- QUESTION END -->
         <!-- TERMINAL STEP START -->
         <li id="terminal-step-1" class="option-terminal animate-in">
+          <div class="step-circle">
+            <p class="num">3</p>
+          </div>
           <h4>Clone the repository</h4>
           <p>
             Go to the folder where you want to store your project, and clone the
@@ -156,54 +165,69 @@
         </li>
         <!-- TERMINAL STEP END -->
         <!-- OPTION-TERMINAL START -->
-        <li class="option-terminal animate-in">
-          <h4>Hello World</h4>
-          <p>Enter the project folder and add an index.html file:</p>
-          <div class="terminal">
-            <div class="header"></div>
-            <div class="shell">
-              <p>
-                <span class="path">~</span><span class="prompt">$</span>cd
-                <em>username</em>.github.io
-              </p>
-              <p>
-                <span class="path">~</span><span class="prompt">$</span>echo
-                "Hello World" &gt; index.html
-              </p>
+        <li class="option-terminal">
+          <div class="terminal-hello">
+            <div class="step-circle">
+              <p class="num">6</p>
+            </div>
+            <h4>Hello World</h4>
+            <p>Enter the project folder and add an index.html file:</p>
+            <div class="terminal">
+              <div class="header"></div>
+              <div class="shell">
+                <p>
+                  <span class="path">~</span><span class="prompt">$</span>cd
+                  <em>username</em>.github.io
+                </p>
+                <p>
+                  <span class="path">~</span><span class="prompt">$</span>echo
+                  "Hello World" &gt; index.html
+                </p>
+              </div>
             </div>
           </div>
         </li>
-        <li class="option-terminal animate-in">
-          <h4>Push it</h4>
-          <p>Add, commit, and push your changes:</p>
-          <div class="terminal">
-            <div class="header"></div>
-            <div class="shell">
-              <p>
-                <span class="path">~</span><span class="prompt">$</span>git add
-                --all
-              </p>
-              <p>
-                <span class="path">~</span><span class="prompt">$</span>git
-                commit -m "Initial commit"
-              </p>
-              <p>
-                <span class="path">~</span><span class="prompt">$</span>git push
-                -u origin main
-              </p>
+        <li class="option-terminal">
+          <div class="terminal-push">
+            <div class="step-circle">
+              <p class="num">8</p>
+            </div>
+            <h4>Push it</h4>
+            <p>Add, commit, and push your changes:</p>
+            <div class="terminal">
+              <div class="header"></div>
+              <div class="shell">
+                <p>
+                  <span class="path">~</span><span class="prompt">$</span>git
+                  add --all
+                </p>
+                <p>
+                  <span class="path">~</span><span class="prompt">$</span>git
+                  commit -m "Initial commit"
+                </p>
+                <p>
+                  <span class="path">~</span><span class="prompt">$</span>git
+                  push -u origin main
+                </p>
+              </div>
             </div>
           </div>
         </li>
         <!-- OPTION-TERMINAL END -->
         <!-- OPTION-ALL START -->
-        <li class="option-all animate-in">
-          <h4>…and you're done!</h4>
-          <p>
-            Fire up a browser and go to
-            <strong>https://<em>username</em>.github.io</strong>.
-          </p>
-          <div class="hero-icon">
-            <i class="bx bx-check mega-icon"></i>
+        <li class="option-all">
+          <div class="end">
+            <div class="step-circle">
+              <p class="num">10</p>
+            </div>
+            <h4>…and you're done!</h4>
+            <p>
+              Fire up a browser and go to
+              <strong>https://<em>username</em>.github.io</strong>.
+            </p>
+            <div class="hero-icon">
+              <i class="bx bx-check mega-icon"></i>
+            </div>
           </div>
         </li>
       </ul>
